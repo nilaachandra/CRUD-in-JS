@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - Creat Read Update and Delete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="readData()">
+    <button class="light">Change to Dark Mode</button>
+<div class="container">
+    <h2>CRUD App with Local Storage in JavaScript</h2>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        <p class="name-alert alert"></p>
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address" placeholder="Enter Your Address">
+        <p class="name-alert alert"></p>
+        <label for="phn">Phone Number</label>
+        <input type="number" name="phn" id="phn" placeholder="Enter Your Phone Number">
+        <p class="name-alert alert"></p>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id="dob" placeholder="Enter Your DOB">
+        <p class="name-alert alert"></p>
+        <label for="name">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        <p class="name-alert alert"></p>
+        <button class="btn" id="submit" onclick="addData()">Add</button>
+    <button class="btn" id="submit" onclick="updateData()">Update</button>
+
+    </form>
+
+<table>
+    <thead>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th>DOB</th>
+            <th>Email</th>
+            <th>Actions</th>
+    </thead>
+    <tbody class="data-table">
+
+    </tbody>
+</table>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

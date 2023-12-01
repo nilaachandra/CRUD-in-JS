@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Assistant&family=Ephesis&family=Martel+Sans&family=Poppins&family=Saira+Extra+Condensed&family=Space+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+}
+.light {
+    margin: 1rem;
+    height: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+form button{
+    height: 40px;
+    width: 300px;
+    max-width: 600px;
+    color: white;
+    background-color: black;
+    border: 1px black;
+}
+input{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+  
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+  }
