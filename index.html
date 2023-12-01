@@ -6,7 +6,7 @@
     <title>CRUD - Creat Read Update and Delete</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="readData()">
+<body onload="addData()"">
     <button class="light">Change to Dark Mode</button>
 <div class="container">
     <h2>CRUD App with Local Storage in JavaScript</h2>
@@ -26,12 +26,12 @@
         <label for="name">Email</label>
         <input type="email" name="email" id="email" placeholder="Enter Your Email">
         <p class="name-alert alert"></p>
-        <button class="btn" id="submit" onclick="addData()">Add</button>
-    <button class="btn" id="submit" onclick="updateData()">Update</button>
+        <button class="btn" type="button" onclick="addData()">Add</button>
+    <button class="btn" type="button" onclick="updateData()">Update</button>
 
     </form>
 
-<table>
+<table id="table">
     <thead>
             <th>Name</th>
             <th>Address</th>
@@ -40,7 +40,7 @@
             <th>Email</th>
             <th>Actions</th>
     </thead>
-    <tbody class="data-table">
+    <tbody id="data-table">
 
     </tbody>
 </table>
